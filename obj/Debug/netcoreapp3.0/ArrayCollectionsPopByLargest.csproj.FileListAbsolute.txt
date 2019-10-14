@@ -1,0 +1,11 @@
+C:\Users\CNova\Documents\Estagio\Curso Pluralsight C#\ArrayCollectionsPopByLargest\ArrayCollectionsPopByLargest\obj\Debug\netcoreapp3.0\ArrayCollectionsPopByLargest.csprojAssemblyReference.cache
+C:\Users\CNova\Documents\Estagio\Curso Pluralsight C#\ArrayCollectionsPopByLargest\ArrayCollectionsPopByLargest\obj\Debug\netcoreapp3.0\ArrayCollectionsPopByLargest.AssemblyInfoInputs.cache
+C:\Users\CNova\Documents\Estagio\Curso Pluralsight C#\ArrayCollectionsPopByLargest\ArrayCollectionsPopByLargest\obj\Debug\netcoreapp3.0\ArrayCollectionsPopByLargest.AssemblyInfo.cs
+C:\Users\CNova\Documents\Estagio\Curso Pluralsight C#\ArrayCollectionsPopByLargest\ArrayCollectionsPopByLargest\bin\Debug\netcoreapp3.0\ArrayCollectionsPopByLargest.exe
+C:\Users\CNova\Documents\Estagio\Curso Pluralsight C#\ArrayCollectionsPopByLargest\ArrayCollectionsPopByLargest\bin\Debug\netcoreapp3.0\ArrayCollectionsPopByLargest.deps.json
+C:\Users\CNova\Documents\Estagio\Curso Pluralsight C#\ArrayCollectionsPopByLargest\ArrayCollectionsPopByLargest\bin\Debug\netcoreapp3.0\ArrayCollectionsPopByLargest.runtimeconfig.json
+C:\Users\CNova\Documents\Estagio\Curso Pluralsight C#\ArrayCollectionsPopByLargest\ArrayCollectionsPopByLargest\bin\Debug\netcoreapp3.0\ArrayCollectionsPopByLargest.runtimeconfig.dev.json
+C:\Users\CNova\Documents\Estagio\Curso Pluralsight C#\ArrayCollectionsPopByLargest\ArrayCollectionsPopByLargest\bin\Debug\netcoreapp3.0\ArrayCollectionsPopByLargest.dll
+C:\Users\CNova\Documents\Estagio\Curso Pluralsight C#\ArrayCollectionsPopByLargest\ArrayCollectionsPopByLargest\bin\Debug\netcoreapp3.0\ArrayCollectionsPopByLargest.pdb
+C:\Users\CNova\Documents\Estagio\Curso Pluralsight C#\ArrayCollectionsPopByLargest\ArrayCollectionsPopByLargest\obj\Debug\netcoreapp3.0\ArrayCollectionsPopByLargest.dll
+C:\Users\CNova\Documents\Estagio\Curso Pluralsight C#\ArrayCollectionsPopByLargest\ArrayCollectionsPopByLargest\obj\Debug\netcoreapp3.0\ArrayCollectionsPopByLargest.pdb
