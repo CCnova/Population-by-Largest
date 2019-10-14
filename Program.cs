@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ArrayCollectionsPopByLargest
 {
@@ -10,7 +11,7 @@ namespace ArrayCollectionsPopByLargest
 
             CsvReader reader = new CsvReader(filePath);
 
-            Country[] countries = reader.ReadFirstNCountries(10);
+            List<Country> countries = reader.ReadAllCountries();
 
             foreach(Country country in countries)
             {
