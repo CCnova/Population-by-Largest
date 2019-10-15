@@ -32,9 +32,9 @@ namespace ArrayCollectionsPopByLargest
             return countries;
         }
 
-        public List<Country> ReadAllCountries()
+        public Dictionary<string, Country> ReadAllCountries()
         {
-            List<Country> countries = new List<Country>();
+            var countries = new Dictionary<string, Country>();
 
             using (System.IO.StreamReader sr = new System.IO.StreamReader(_csvFilePath))
             {
@@ -43,7 +43,8 @@ namespace ArrayCollectionsPopByLargest
                 string csvLine;
                 while((csvLine = sr.ReadLine()) != null)
                 {
-                    countries.Add(ReadCountryFromCsvLine(csvLine));
+                    Country country = ReadCountryFromCsvLine(csvLine);
+                    countries.Add(country.Code, country);
                 }
             }
 

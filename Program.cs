@@ -7,19 +7,24 @@ namespace ArrayCollectionsPopByLargest
     {
         static void Main(string[] args)
         {
+            //Change this variable to the path of your file
             string filePath = @"C:\Users\CNova\Documents\Estagio\Curso Pluralsight C#\csharp-collections-beginning\Pop by Largest Final.csv";
 
             CsvReader reader = new CsvReader(filePath);
+            Dictionary<string, Country> countries = reader.ReadAllCountries();
 
-            List<Country> countries = reader.ReadAllCountries();
-            Country lilliput = new Country("Lilliput", "LIL", "Somewhere", 2_000_000);
-            int lilliputIndex = countries.FindIndex(x=>x.Population < 2_000_000);
-            countries.Insert(lilliputIndex, lilliput);
+            Console.WriteLine("Wich country code do you want to look up? ");
+            string userInput = Console.ReadLine();
 
-            foreach(Country country in countries)
+            bool gotCountry = countries.TryGetValue(userInput, out Country country);
+            if(!gotCountry)
             {
-                Console.WriteLine($"{PopulationFormatter.FormatPopulation(country.Population).PadLeft(15)}: {country.Name}");
+                Console.WriteLine($"Sorry, there is no country with code, {userInput}");
+            }
 
+            else
+            {
+                Console.WriteLine($"{country.Name} has population {PopulationFormatter.FormatPopulation(country.Population)}");
             }
         }
     }
